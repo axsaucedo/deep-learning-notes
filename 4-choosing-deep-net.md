@@ -56,11 +56,3 @@ Suitable classifiers:
 
 #### Good for time series
 * Recurrent network
-
-
-
-
-
-
-
-

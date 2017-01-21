@@ -67,28 +67,3 @@ The process to improve a NN's accuracy is called **training**.
 **Cost** - The difference between the output obtained and the actual output.
 
 The point of training is to minimize the cost.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

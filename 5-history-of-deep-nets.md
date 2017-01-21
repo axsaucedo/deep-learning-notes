@@ -48,33 +48,3 @@ A gradient at any point is the product of the previous gradients up to that poin
 ## Until 2006...
 Deep nets were underperforming shallow nets, but everything changed after 3 breakthrough papers, published by **Hinton, Laocoon and Bengio**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 

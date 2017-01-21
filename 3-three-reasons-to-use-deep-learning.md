@@ -39,11 +39,3 @@ Brains have a very deep architecture like a deep net.
 Advances in computing have reducing time required to train deep networks.
 
 High performance GPUs can finish training nets in under a week, whilst CPUs would take weeks.
-
-
-
-
-
-
-
-
