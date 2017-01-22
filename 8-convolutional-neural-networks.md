@@ -9,8 +9,11 @@ Early in 2015 by Microsoft, Google and Baidu, machine was able to beat a human i
 
 ### Imagenet Challenge
 Imagenet is a project that was inspired by the growing need for high quality data in the image processing space.
+
 Every year, the top deep learning teams in the world compete against each other to build the best possible object recognition sofware.
+
 In 2012 when Jeff Hinton's team took first place in the challenge, every single winner has used a CNN for their projects.
+
 The error rate of image detection texts has dropped with CNNs.
 
 ### Resources for CNN knowledge
@@ -32,7 +35,9 @@ These layers are followed by a few fully connected layers to support classificat
 Since CNNs are such Deep Networks, they most likely need to be trained using server resources, which will probably require GPUs.
 
 ## Drawbacks
-Since they are a supervised learning method, they require a **large set** of labelled data for training. This can be challenging to obtain in a real world application 
+Since they are a supervised learning method, they require a **large set** of labelled data for training. 
+
+This can be challenging to obtain in a real world application 
 
 
 ### Convolutional Layer
