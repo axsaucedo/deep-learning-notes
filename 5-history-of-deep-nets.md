@@ -42,6 +42,7 @@ As you keep going back in the layers, we have to use a lot of gradients.
 A gradient at any point is the product of the previous gradients up to that point. The product of two numbers between 0 and 1 gives you a smaller number...
 
 #### Implications
+
 * Takes a lot of time
 * Accuracy is very low
 

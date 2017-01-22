@@ -2,28 +2,15 @@
 # Convoluted Neural Networks (CNN)
 The deep network that has completely dominated the machine vision space in recent years.
 
-## History
-Pioneered by Yann Legun from NYU uni - director of FB AI group. They say fb uses a CNN for their face recognition
-
-Early in 2015 by Microsoft, Google and Baidu, machine was able to beat a human in object recognition.
-
-### Imagenet Challenge
-Imagenet is a project that was inspired by the growing need for high quality data in the image processing space.
-
-Every year, the top deep learning teams in the world compete against each other to build the best possible object recognition sofware.
-
-In 2012 when Jeff Hinton's team took first place in the challenge, every single winner has used a CNN for their projects.
-
-The error rate of image detection texts has dropped with CNNs.
-
 ### Resources for CNN knowledge
-For deeper insight on the maths, check out **Andrej Karpathy's CS231N notes.
+For deeper insight on the maths, check out **Andrej Karpathy's CS231N notes**.
 
 
 ## Architecture
 
 ### Main components
 A typical CNN has 3 sets of layers
+
 * Convolutional layer
 * RELU layer
 * Pooling layers
@@ -54,6 +41,7 @@ When combined together, the flashlights form what is called a **filter**.
 A **filter** is able to determine if the given pattern occurs in this image, and in what regions.
 
 In the case of an 8x6 grid of lights, which is all considered to be one filter:
+
 * If we take a look at the top, flashlights from multiple filters, they will all be shining at multiple spots in parallel, simultaneously detecting a wide array of patterns
 * In this example, we have 4 filterns all looking at the wall, all looking for a different pattern
 * This specific type of convolutional layer is an 8x6x4 3D grid of the flashlights.
@@ -111,6 +99,20 @@ This limits both the memory and processing requirements to running a CNN.
 Together, these 3 layers can discover a hose of complex patterns, but the net **won't have an understanding of what these patterns mean.**
 
 This is why a Fully Connected (FC) layer is attached to the end of the net in order to equip the net to classify data samples.
+
+## History
+Pioneered by Yann Legun from NYU uni - director of FB AI group. They say fb uses a CNN for their face recognition
+
+Early in 2015 by Microsoft, Google and Baidu, machine was able to beat a human in object recognition.
+
+### Imagenet Challenge
+Imagenet is a project that was inspired by the growing need for high quality data in the image processing space.
+
+Every year, the top deep learning teams in the world compete against each other to build the best possible object recognition sofware.
+
+In 2012 when Jeff Hinton's team took first place in the challenge, every single winner has used a CNN for their projects.
+
+The error rate of image detection texts has dropped with CNNs.
 
 
 

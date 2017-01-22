@@ -10,6 +10,7 @@ Because of his work, he's referred as one of the fathers of Deep Learning.
 
 ## RBM Structure
 A shallow 2-layer net with:
+
 * **Layer 1:** Visible layer
 * **Layer 2:** Hidden layer
 
@@ -20,6 +21,7 @@ Each node in the visible layer is connected to each node in the hidden layer.
 An RBM is a mathematical equivalent of a **two way translator**.
 
 ### RBM Process
+
 * **Forward pass** - RBMs takes the inputs and translates into a set of numbers that encode the inputs.
 * **Backwards pass** - RBM takes the set of numbers and takes it back to form the reconstructed inputs.
 

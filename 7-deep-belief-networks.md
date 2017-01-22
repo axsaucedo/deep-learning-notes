@@ -16,6 +16,7 @@ DBNs can be viewed as a **stack of RBMs**, where the hidden layer of one RBM is 
 ## Training
 
 A DBN is trained as follows:
+
 * The first RBM is trained to reconstruct its input as accurately as possible.
 * The hidden layer of the first RBM is treated as the visible layer of the 2nd
 * The 2nd RBM is trained using the outputs of the 1st RBM.
@@ -44,6 +45,7 @@ Fortunately, the set of labelled data, can be small relative to the original dat
 **But do be careful of overtraining a deep network!**
 
 ## Benefits of DBNs
+
 * Only needs a small labelled dataset, which is important to real life applications
 * Training process can be completed in reasonable time thanks to GPUs
 * Resulting net is very accurate compared to a shallow net

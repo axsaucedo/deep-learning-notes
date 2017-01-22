@@ -12,12 +12,14 @@ NNs main functions get an input, process complex sets of calculations and provid
 This chapter focuses on classification.
 
 Recommended resources:
+
 * Mark Neilson's book
 * Andrew Ng ML Class
 
 ## Classification
 
 Categorising a group of objects by only using some basic data features that describe them. Examples:
+
 * Logistic regression
 * SVMs
 * Naive Bayes
@@ -27,12 +29,15 @@ The firing of a classifier, or **activation**, produces a score.
 ### Example
 If you have to say whether a patient is healthy, and all you have is height, weight and body temperature.
 The classifier would get the data, process it and provide a score:
+
 * A low score would suggest they are sick
 * A high score would suggest they are healthy
 
 ## Neural Network Layers
 NNs can be used in classification problems when an object can fall in 1 of 2 or more options.
+
 Unlike other networks (like graphs, etc), a NN comes in **layers**.
+
 * **Input layer** - the first layer
 * **Output layer** - the last layer
 * **Hidden layers** - the layers in the middle
@@ -55,6 +60,7 @@ Since then, the nodes inside NNs have replaced perceptrons with more accurate cl
 ### Weights and Biases
 If you have a NN with nodes that have the same classifier and the nodes don't fire randomly, then the same input will get the same output every time. 
 **Then why would nodes in the network have different outputs?* Because each set of inputs is modified by different sets of *weights* and *biases**.
+
 * *Weight** - The weight in the edges that connect the nodes
 * *Bias** - Extra weight that is added in each node
 

@@ -23,6 +23,7 @@ Deep networks break down complex patterns into a set of less complex patterns.
 #### Example
 
 A deep net wants to understand whether a picture contains a human face. In each layer, the computer learns to identify:
+
 * **Layer 1:** Pixels of light and dark
 * **Layer 2:** Edges and simple shapes
 * **Layer 3:** More complex shapes and objects
