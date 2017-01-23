@@ -73,3 +73,8 @@ The process to improve a NN's accuracy is called **training**.
 **Cost** - The difference between the output obtained and the actual output.
 
 The point of training is to minimize the cost.
+
+## Resources
+
+* Michael Nielsen's book - http://neuralnetworksanddeeplearning.com/
+* Andrew Ng's class - https://www.coursera.org/learn/machine-learning

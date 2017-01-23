@@ -107,3 +107,9 @@ Deep nets are used to gather and sell customer data in order to determine the be
 ## Agriculture
 
 Deep Networks use satellite feeds and sensor data to identify problematic environmental conditions.
+
+# Resources
+
+* Clarifai - http://www.clarifai.com
+* Metamind - https://www.metamind.io/language/twitter
+

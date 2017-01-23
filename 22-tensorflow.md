@@ -101,4 +101,13 @@ The tool allows you to zoom in and visualize different levels of the network.
 
 You can also view different summary level metrics, and changes overtime of the training process.
 
+# Resources 
+
+* Soumith Chintala benchmarks - https://github.com/soumith/convnet-benchmarks
+* TensorFlow road map - https://www.tensorflow.org/resources/roadmap#roadmap
+* Github ML Showcase - https://github.com/showcases/machine-learning
+* Somatic Ruby post - http://www.somatic.io/blog/tensorflow-is-coming-to-ruby
+* TensorFlow MOOC - https://www.udacity.com/course/deep-learning--ud730
+
+
 
