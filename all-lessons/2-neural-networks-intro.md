@@ -1,4 +1,3 @@
-
 # Neural Networks
 
 ## Overview
