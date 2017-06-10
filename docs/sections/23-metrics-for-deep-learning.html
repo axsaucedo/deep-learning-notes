@@ -1,0 +1,694 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>23-metrics-for-deep-learning -  · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="24-deep-network-performance.html" />
+    
+    
+    <link rel="prev" href="22-tensorflow.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Sections
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="2-neural-networks-intro.html">
+            
+                <a href="2-neural-networks-intro.html">
+            
+                    
+                    2-neural-networks-intro - Neural Networks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="3-three-reasons-to-use-deep-learning.html">
+            
+                <a href="3-three-reasons-to-use-deep-learning.html">
+            
+                    
+                    3-three-reasons-to-use-deep-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="4-choosing-deep-net.html">
+            
+                <a href="4-choosing-deep-net.html">
+            
+                    
+                    4-choosing-deep-net - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="5-history-of-deep-nets.html">
+            
+                <a href="5-history-of-deep-nets.html">
+            
+                    
+                    5-history-of-deep-nets - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="6-restricted-boltzmann-machines.html">
+            
+                <a href="6-restricted-boltzmann-machines.html">
+            
+                    
+                    6-restricted-boltzmann-machines - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="7-deep-belief-networks.html">
+            
+                <a href="7-deep-belief-networks.html">
+            
+                    
+                    7-deep-belief-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="8-convolutional-neural-networks.html">
+            
+                <a href="8-convolutional-neural-networks.html">
+            
+                    
+                    8-convolutional-neural-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="9-recurrent-neural-networks.html">
+            
+                <a href="9-recurrent-neural-networks.html">
+            
+                    
+                    9-recurrent-neural-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="10-autoencoders.html">
+            
+                <a href="10-autoencoders.html">
+            
+                    
+                    10-autoencoders - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="11-recursive-neural-tensor-nets.html">
+            
+                <a href="11-recursive-neural-tensor-nets.html">
+            
+                    
+                    11-recursive-neural-tensor-nets - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="12-deep-learning-use-cases.html">
+            
+                <a href="12-deep-learning-use-cases.html">
+            
+                    
+                    12-deep-learning-use-cases - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="13-deep-network-platform.html">
+            
+                <a href="13-deep-network-platform.html">
+            
+                    
+                    13-deep-network-platform - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="14-platforms-h2o-ai.html">
+            
+                <a href="14-platforms-h2o-ai.html">
+            
+                    
+                    14-platforms-h2o-ai - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="15-platforms-dato-graphlab.html">
+            
+                <a href="15-platforms-dato-graphlab.html">
+            
+                    
+                    15-platforms-dato-graphlab - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="16-intro-deep-learning-libraries.html">
+            
+                <a href="16-intro-deep-learning-libraries.html">
+            
+                    
+                    16-intro-deep-learning-libraries - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="17-deep-library-theano.html">
+            
+                <a href="17-deep-library-theano.html">
+            
+                    
+                    17-deep-library-theano - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="18-deep-library-deeplearning4j.html">
+            
+                <a href="18-deep-library-deeplearning4j.html">
+            
+                    
+                    18-deep-library-deeplearning4j - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="19-deep-library-torch.html">
+            
+                <a href="19-deep-library-torch.html">
+            
+                    
+                    19-deep-library-torch - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="20-deep-library-caffe.html">
+            
+                <a href="20-deep-library-caffe.html">
+            
+                    
+                    20-deep-library-caffe - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="21-optimizing-your-fit.html">
+            
+                <a href="21-optimizing-your-fit.html">
+            
+                    
+                    21-optimizing-your-fit - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="22-tensorflow.html">
+            
+                <a href="22-tensorflow.html">
+            
+                    
+                    22-tensorflow - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.22" data-path="23-metrics-for-deep-learning.html">
+            
+                <a href="23-metrics-for-deep-learning.html">
+            
+                    
+                    23-metrics-for-deep-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="24-deep-network-performance.html">
+            
+                <a href="24-deep-network-performance.html">
+            
+                    
+                    24-deep-network-performance - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="25-text-analytics.html">
+            
+                <a href="25-text-analytics.html">
+            
+                    
+                    25-text-analytics - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.25" data-path="26-configuring-a-deep-net.html">
+            
+                <a href="26-configuring-a-deep-net.html">
+            
+                    
+                    26-configuring-a-deep-net - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.26" data-path="27-transfer-learning.html">
+            
+                <a href="27-transfer-learning.html">
+            
+                    
+                    27-transfer-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.27" data-path="28-neural-storyteller.html">
+            
+                <a href="28-neural-storyteller.html">
+            
+                    
+                    28-neural-storyteller - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.28" data-path="29-inceptionism.html">
+            
+                <a href="29-inceptionism.html">
+            
+                    
+                    29-inceptionism - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.29" data-path="30-reinforcement-learning.html">
+            
+                <a href="30-reinforcement-learning.html">
+            
+                    
+                    30-reinforcement-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >23-metrics-for-deep-learning - </a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="metrics-for-deep-learning">Metrics for Deep Learning</h1>
+<p>Google outperformed a human at a image recognition task.</p>
+<p>How was the performance actually measured?</p>
+<p>The measurement was <strong>error</strong></p>
+<h2 id="error">Error</h2>
+<p>A straightforward measurement that captures the proportion of <strong>data-points classified incorrectly.</strong></p>
+<p>Calculation is simply:</p>
+<blockquote>
+<p>Number of incorrect classifications made by the net divided by the total number of classifications.</p>
+</blockquote>
+<h3 id="disadvantage">Disadvantage</h3>
+<p>Error has a significant drawback as a performance measurement.</p>
+<p>Especially when the datapoints are skewed towards one class over another.</p>
+<h4 id="example-1">Example 1</h4>
+<ul>
+<li>We are tasked with a medical model to diagnose a brain tumour that only occurs in about 1% of patience</li>
+</ul>
+<p>With the objective of low error, we could design a model that gives a negative diagnosis all the time.</p>
+<p>Whilst the model would be useless in a practical setting, the error would be a very low 1%.</p>
+<p>The problem arises when we measure error globally across the set of all classes, rather than taking a granular view of the model&apos;s performance at a class level.</p>
+<h4 id="example-2">Example 2</h4>
+<p>Let&apos;s look at a 2 class classification, where a datapoint can be considered positive or negative.</p>
+<p>If the model makes a positive classification, then we can either be correct (<strong>True positive</strong>), or it could be incorrect (<strong>False positive</strong>).</p>
+<p>True negatives and false negatives are defined similarly when the model makes a negative prediction.</p>
+<h4 id="confusion-matrix">Confusion Matrix</h4>
+<p>We often place True positive, True negative, False positive and false negative in a grid.</p>
+<p>By doing this we get a <strong>confusion matrix</strong></p>
+<p>Each square in the matrix is a placeholder for a value.</p>
+<p>So the values are not related to any of the classes in the model.</p>
+<p>Using this matrix can allow us to use new measurements that overcome the previous problem.</p>
+<p>We can do this by asking 2 related questions about model performance:</p>
+<ul>
+<li><strong>Recall</strong> - &quot;What percentave of these positives was the model able to correctly identify&quot;. True Positives / Total number of positives</li>
+<li><strong>Precision</strong> - &quot;What percentage of these predictions were actually positive?&quot;. True Positives / Number of classified as positive</li>
+</ul>
+<p>These questions give you the number of positive datapoints it was able to recall, and how precise were the actual predictions. </p>
+<p>Recall and precision are defined for the negative as well.</p>
+<h4 id="going-back-for-example">Going back for example</h4>
+<p>If we take our model that just gave a negative diagnose, our model had a <strong>recall of 0</strong>, because it failed to identify any patients with a positive diagnosis.</p>
+<h4 id="example-3">Example 3</h4>
+<p>Consider a model that examines a pool of applicants from a top 5 business school, and determines who to accept.</p>
+<p>We will say that accepting a student is a positive, and rejecting is negative.</p>
+<p>Only the very best will be accepted.</p>
+<p>Given the extremely number of false positives, the model would have a <strong>high precision value.</strong></p>
+<p>But there would be a large number of qualified students that will fail, and this will be the false negatives - hence the model would have a <strong>low recall value</strong></p>
+<h4 id="example-4">Example 4</h4>
+<p>Let&apos;s take a model for a state college, which would be designed a bit differently.</p>
+<p>The goal is to accept a much larger set of students.</p>
+<p>A few underqualified students will be accepted, so the false positive count will be high, so it would have a <strong>low precision.</strong></p>
+<p>But unlike the other model, very few qualified students will be overlooked. </p>
+<p>So the number of false negatives would be low, so it would have a <strong>high recall.</strong></p>
+<h2 id="f1-score">F1 score</h2>
+<p>We can use hybrid measurements in order to achieve a balance between precision and recall.</p>
+<p>Once of these models is the F1 score - it is calculated as the harmonic mean of precision and recall.</p>
+<p>This outperforms the standard arithmetic mean in the presence of outliers.</p>
+<p>The harmonic mean also offers an improvement when the features have values between 0 and 1. </p>
+<p>This becomes handy in the process of feature scaling.</p>
+<p>We can also examine precision and recall graphically by plotting these values and examining the area under the curve.</p>
+<p><strong>The model that maximises this area will typically be the best performing</strong></p>
+<h2 id="multi-class-classification">Multi-class classification</h2>
+<p>We can extend this concepts to classification problems with more than two classes.</p>
+<p>This would just need a matrix that is bigger than the usual 2x2 confusion matrix.</p>
+<p>The definition for precision and recall remain the same - the only difference is that now a data class <strong>can be misclassified in multiple ways</strong>.</p>
+<p>So false positives and false negatives must be summed through all missclassification pairs. </p>
+<p>So for multiclass classification:</p>
+<ul>
+<li>Precision - The number of true positives over all points classified positive</li>
+<li>Recall - The ratio of number of true positives over number of all positives</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="22-tensorflow.html" class="navigation navigation-prev " aria-label="Previous page: 22-tensorflow - ">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="24-deep-network-performance.html" class="navigation navigation-next " aria-label="Next page: 24-deep-network-performance - ">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"23-metrics-for-deep-learning - ","level":"1.2.22","depth":2,"next":{"title":"24-deep-network-performance - ","level":"1.2.23","depth":2,"path":"sections/24-deep-network-performance.md","ref":"sections/24-deep-network-performance.md","articles":[]},"previous":{"title":"22-tensorflow - ","level":"1.2.21","depth":2,"path":"sections/22-tensorflow.md","ref":"sections/22-tensorflow.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"sections/23-metrics-for-deep-learning.md","mtime":"2017-01-23T15:28:13.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-10T19:24:51.993Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

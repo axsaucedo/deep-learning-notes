@@ -1,0 +1,683 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>11-recursive-neural-tensor-nets -  · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="12-deep-learning-use-cases.html" />
+    
+    
+    <link rel="prev" href="10-autoencoders.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Sections
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="2-neural-networks-intro.html">
+            
+                <a href="2-neural-networks-intro.html">
+            
+                    
+                    2-neural-networks-intro - Neural Networks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="3-three-reasons-to-use-deep-learning.html">
+            
+                <a href="3-three-reasons-to-use-deep-learning.html">
+            
+                    
+                    3-three-reasons-to-use-deep-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="4-choosing-deep-net.html">
+            
+                <a href="4-choosing-deep-net.html">
+            
+                    
+                    4-choosing-deep-net - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="5-history-of-deep-nets.html">
+            
+                <a href="5-history-of-deep-nets.html">
+            
+                    
+                    5-history-of-deep-nets - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="6-restricted-boltzmann-machines.html">
+            
+                <a href="6-restricted-boltzmann-machines.html">
+            
+                    
+                    6-restricted-boltzmann-machines - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="7-deep-belief-networks.html">
+            
+                <a href="7-deep-belief-networks.html">
+            
+                    
+                    7-deep-belief-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="8-convolutional-neural-networks.html">
+            
+                <a href="8-convolutional-neural-networks.html">
+            
+                    
+                    8-convolutional-neural-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="9-recurrent-neural-networks.html">
+            
+                <a href="9-recurrent-neural-networks.html">
+            
+                    
+                    9-recurrent-neural-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="10-autoencoders.html">
+            
+                <a href="10-autoencoders.html">
+            
+                    
+                    10-autoencoders - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.10" data-path="11-recursive-neural-tensor-nets.html">
+            
+                <a href="11-recursive-neural-tensor-nets.html">
+            
+                    
+                    11-recursive-neural-tensor-nets - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="12-deep-learning-use-cases.html">
+            
+                <a href="12-deep-learning-use-cases.html">
+            
+                    
+                    12-deep-learning-use-cases - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="13-deep-network-platform.html">
+            
+                <a href="13-deep-network-platform.html">
+            
+                    
+                    13-deep-network-platform - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="14-platforms-h2o-ai.html">
+            
+                <a href="14-platforms-h2o-ai.html">
+            
+                    
+                    14-platforms-h2o-ai - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="15-platforms-dato-graphlab.html">
+            
+                <a href="15-platforms-dato-graphlab.html">
+            
+                    
+                    15-platforms-dato-graphlab - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="16-intro-deep-learning-libraries.html">
+            
+                <a href="16-intro-deep-learning-libraries.html">
+            
+                    
+                    16-intro-deep-learning-libraries - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="17-deep-library-theano.html">
+            
+                <a href="17-deep-library-theano.html">
+            
+                    
+                    17-deep-library-theano - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="18-deep-library-deeplearning4j.html">
+            
+                <a href="18-deep-library-deeplearning4j.html">
+            
+                    
+                    18-deep-library-deeplearning4j - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="19-deep-library-torch.html">
+            
+                <a href="19-deep-library-torch.html">
+            
+                    
+                    19-deep-library-torch - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="20-deep-library-caffe.html">
+            
+                <a href="20-deep-library-caffe.html">
+            
+                    
+                    20-deep-library-caffe - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="21-optimizing-your-fit.html">
+            
+                <a href="21-optimizing-your-fit.html">
+            
+                    
+                    21-optimizing-your-fit - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="22-tensorflow.html">
+            
+                <a href="22-tensorflow.html">
+            
+                    
+                    22-tensorflow - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="23-metrics-for-deep-learning.html">
+            
+                <a href="23-metrics-for-deep-learning.html">
+            
+                    
+                    23-metrics-for-deep-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="24-deep-network-performance.html">
+            
+                <a href="24-deep-network-performance.html">
+            
+                    
+                    24-deep-network-performance - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="25-text-analytics.html">
+            
+                <a href="25-text-analytics.html">
+            
+                    
+                    25-text-analytics - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.25" data-path="26-configuring-a-deep-net.html">
+            
+                <a href="26-configuring-a-deep-net.html">
+            
+                    
+                    26-configuring-a-deep-net - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.26" data-path="27-transfer-learning.html">
+            
+                <a href="27-transfer-learning.html">
+            
+                    
+                    27-transfer-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.27" data-path="28-neural-storyteller.html">
+            
+                <a href="28-neural-storyteller.html">
+            
+                    
+                    28-neural-storyteller - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.28" data-path="29-inceptionism.html">
+            
+                <a href="29-inceptionism.html">
+            
+                    
+                    29-inceptionism - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.29" data-path="30-reinforcement-learning.html">
+            
+                <a href="30-reinforcement-learning.html">
+            
+                    
+                    30-reinforcement-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >11-recursive-neural-tensor-nets - </a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="recursive-neural-tensor-nets">Recursive Neural Tensor Nets</h1>
+<p>Used to discover the hierarchical structure of a set of data.</p>
+<p>Examples are parse trees of groups of sentences.</p>
+<p>RNTNs are a better fit than FFNs or RNNs.</p>
+<h2 id="history">History</h2>
+<p>Conceived by Richard Socher at Metamind as PHD thesis at Standford.</p>
+<p>Purpose was to analyze data that had a hierarchical structure.</p>
+<p>Originally designed for sentiment analysis, where the sentiment doesn&apos;t just depend on its component words, but **in the order in which they are syntactically grouped&quot;.</p>
+<h2 id="structure">Structure</h2>
+<p>RNTN has 3 basic components:</p>
+<ul>
+<li><strong>Root</strong> - A parent group</li>
+<li><strong>Leafs</strong> - Child Groups</li>
+</ul>
+<p>Each group is simply a <strong>collection of neurons</strong> where the number of neurons <strong>depends on the complexity of the input data</strong>.</p>
+<p>The root is connected to both leafs, but leafs are not connected to each other.</p>
+<p>The 3 components for a <strong>binary tree</strong>.</p>
+<p>In general, the leafs receive input, and the root group uses a classifier to fire out a <strong>class</strong> and a <strong>score</strong>.</p>
+<p>The structure might seem simple, but like in a RNN, the complexity comes from the way data moves though the net.</p>
+<p>In the case of an RNTN, this process is <strong>recursive</strong>.</p>
+<h2 id="recursion">Recursion</h2>
+<p>To see how the recursion works in RNTNs, here&apos;s an example:</p>
+<ul>
+<li>We feed an English sentence to an RNTN</li>
+<li>We receive the sentence&apos;s parse tree as an output</li>
+</ul>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li>We feed the first 2 words into leaf groups 1 and 2 respectively.</li>
+<li>The 2 vectors move across the net to the root, which processes them and fires 2 values: the <strong>class</strong> and the <strong>score</strong>.</li>
+<li>This is the point where the net starts the recursion</li>
+<li>The current parse is passed to the left leaf above, whilst the right leaf receives the following word in the sentence</li>
+<li>At this point, the root group would output the score of a parse which is 3 words long </li>
+<li>This continues until all the inputs (words) are used up. The net has a parse tree with every single word included</li>
+</ol>
+<h3 id="overview-of-example">Overview of example</h3>
+<p>This simplifies the main idea behind an RNTN, but in a practical application, we typically encounter more complex recursive processes. </p>
+<p>Rather than using the next word in the sentence for the second leaf group, an RNTN would try all of the next words, and eventually vectors that represent entire sub-parses.</p>
+<p>By doing this at every step of the recursive process, the net is able to analyze and score any possible syntactical parse.</p>
+<h3 id="terms">Terms</h3>
+<p><strong>The class</strong>: Represents an encoding of the structure in the current parse</p>
+<p><strong>The score</strong>: Represents the quality of the current parse</p>
+<p><strong>Practical note</strong>: The leaf groups don&apos;t actually receive the words per say, but rather vector representations of the words. Particularly, good results are achieve when the numbers in the two vectors <strong>encode the similarities</strong> between the two words <strong>when compared</strong> to other words in the vocabulary.</p>
+<h2 id="choice-of-structure">Choice of structure</h2>
+<p>It&apos;s possible to build a structure that holds the weight to the right, in the centre or to the left.</p>
+<p>In order to chose the best structure, the net relies on the score value produced by the root group.</p>
+<p>By using this score to select the best structure at each step of the recursive process, the net will produce the highest scoring parse as its final output.</p>
+<h2 id="labeling">Labeling</h2>
+<p>Once the net has the final structure, it backtracks through the parse tree, in order to figure out <strong>the right grammatical label for each part of the sentence.</strong></p>
+<p>In an example &quot;The car is fast&quot;, you could have the first two words labeled by a leaf+root group as a &quot;noun phrase&quot;, and the last two ones as a &quot;verb phrase&quot;. Then it would work its way up, and when it reaches the top, it adds a special label that signifies <strong>the beginning of the parse structure</strong>.</p>
+<h2 id="backpropagation">Backpropagation</h2>
+<p>RNTNs are trained with backpropagation by comparing the <strong>predictive sentence structure</strong> with the <strong>proper sentence structure</strong> obtained from a set of <strong>labeled training data</strong>.</p>
+<p>Once trained, it will now give higher score to structures that are more similar to the parse trees it saw during training.</p>
+<h2 id="parsing">Parsing</h2>
+<h3 id="text-processing">Text processing</h3>
+<p>RNTNs are used in NLP for both syntactic parsing and sentiment analysis.</p>
+<h3 id="image-parsing">Image parsing</h3>
+<p>Also used to parse images, typically when an image contains a scene with many different components.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="10-autoencoders.html" class="navigation navigation-prev " aria-label="Previous page: 10-autoencoders - ">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="12-deep-learning-use-cases.html" class="navigation navigation-next " aria-label="Next page: 12-deep-learning-use-cases - ">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"11-recursive-neural-tensor-nets - ","level":"1.2.10","depth":2,"next":{"title":"12-deep-learning-use-cases - ","level":"1.2.11","depth":2,"path":"sections/12-deep-learning-use-cases.md","ref":"sections/12-deep-learning-use-cases.md","articles":[]},"previous":{"title":"10-autoencoders - ","level":"1.2.9","depth":2,"path":"sections/10-autoencoders.md","ref":"sections/10-autoencoders.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"sections/11-recursive-neural-tensor-nets.md","mtime":"2017-01-22T12:48:51.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-10T19:24:51.993Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

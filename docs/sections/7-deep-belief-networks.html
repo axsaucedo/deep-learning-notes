@@ -1,0 +1,659 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>7-deep-belief-networks -  · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="8-convolutional-neural-networks.html" />
+    
+    
+    <link rel="prev" href="6-restricted-boltzmann-machines.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Sections
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="2-neural-networks-intro.html">
+            
+                <a href="2-neural-networks-intro.html">
+            
+                    
+                    2-neural-networks-intro - Neural Networks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="3-three-reasons-to-use-deep-learning.html">
+            
+                <a href="3-three-reasons-to-use-deep-learning.html">
+            
+                    
+                    3-three-reasons-to-use-deep-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="4-choosing-deep-net.html">
+            
+                <a href="4-choosing-deep-net.html">
+            
+                    
+                    4-choosing-deep-net - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="5-history-of-deep-nets.html">
+            
+                <a href="5-history-of-deep-nets.html">
+            
+                    
+                    5-history-of-deep-nets - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="6-restricted-boltzmann-machines.html">
+            
+                <a href="6-restricted-boltzmann-machines.html">
+            
+                    
+                    6-restricted-boltzmann-machines - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="7-deep-belief-networks.html">
+            
+                <a href="7-deep-belief-networks.html">
+            
+                    
+                    7-deep-belief-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="8-convolutional-neural-networks.html">
+            
+                <a href="8-convolutional-neural-networks.html">
+            
+                    
+                    8-convolutional-neural-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="9-recurrent-neural-networks.html">
+            
+                <a href="9-recurrent-neural-networks.html">
+            
+                    
+                    9-recurrent-neural-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="10-autoencoders.html">
+            
+                <a href="10-autoencoders.html">
+            
+                    
+                    10-autoencoders - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="11-recursive-neural-tensor-nets.html">
+            
+                <a href="11-recursive-neural-tensor-nets.html">
+            
+                    
+                    11-recursive-neural-tensor-nets - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="12-deep-learning-use-cases.html">
+            
+                <a href="12-deep-learning-use-cases.html">
+            
+                    
+                    12-deep-learning-use-cases - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="13-deep-network-platform.html">
+            
+                <a href="13-deep-network-platform.html">
+            
+                    
+                    13-deep-network-platform - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="14-platforms-h2o-ai.html">
+            
+                <a href="14-platforms-h2o-ai.html">
+            
+                    
+                    14-platforms-h2o-ai - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="15-platforms-dato-graphlab.html">
+            
+                <a href="15-platforms-dato-graphlab.html">
+            
+                    
+                    15-platforms-dato-graphlab - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="16-intro-deep-learning-libraries.html">
+            
+                <a href="16-intro-deep-learning-libraries.html">
+            
+                    
+                    16-intro-deep-learning-libraries - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="17-deep-library-theano.html">
+            
+                <a href="17-deep-library-theano.html">
+            
+                    
+                    17-deep-library-theano - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="18-deep-library-deeplearning4j.html">
+            
+                <a href="18-deep-library-deeplearning4j.html">
+            
+                    
+                    18-deep-library-deeplearning4j - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="19-deep-library-torch.html">
+            
+                <a href="19-deep-library-torch.html">
+            
+                    
+                    19-deep-library-torch - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="20-deep-library-caffe.html">
+            
+                <a href="20-deep-library-caffe.html">
+            
+                    
+                    20-deep-library-caffe - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="21-optimizing-your-fit.html">
+            
+                <a href="21-optimizing-your-fit.html">
+            
+                    
+                    21-optimizing-your-fit - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="22-tensorflow.html">
+            
+                <a href="22-tensorflow.html">
+            
+                    
+                    22-tensorflow - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="23-metrics-for-deep-learning.html">
+            
+                <a href="23-metrics-for-deep-learning.html">
+            
+                    
+                    23-metrics-for-deep-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="24-deep-network-performance.html">
+            
+                <a href="24-deep-network-performance.html">
+            
+                    
+                    24-deep-network-performance - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="25-text-analytics.html">
+            
+                <a href="25-text-analytics.html">
+            
+                    
+                    25-text-analytics - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.25" data-path="26-configuring-a-deep-net.html">
+            
+                <a href="26-configuring-a-deep-net.html">
+            
+                    
+                    26-configuring-a-deep-net - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.26" data-path="27-transfer-learning.html">
+            
+                <a href="27-transfer-learning.html">
+            
+                    
+                    27-transfer-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.27" data-path="28-neural-storyteller.html">
+            
+                <a href="28-neural-storyteller.html">
+            
+                    
+                    28-neural-storyteller - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.28" data-path="29-inceptionism.html">
+            
+                <a href="29-inceptionism.html">
+            
+                    
+                    29-inceptionism - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.29" data-path="30-reinforcement-learning.html">
+            
+                <a href="30-reinforcement-learning.html">
+            
+                    
+                    30-reinforcement-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >7-deep-belief-networks - </a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="deep-belief-networks">Deep Belief Networks</h1>
+<p>RBMs can extract features and reconstruct inputs... but exactly does that help with the vanishing gradient?</p>
+<p>By combining RBMs together and introducing a clever training method, we obtain a powerful new model that solves our problems: <strong>Deep belief networks</strong></p>
+<p>(Deep belief networks were also conceived by Geoff Hinton as an alternative to back propagation - he&apos;s now working on image recognition problems at Google)</p>
+<h2 id="structure-of-dbns--mlp">Structure of DBNs = MLP</h2>
+<p>The structure of DBNs are identical to MLPs.</p>
+<p>However, the difference is when it comes <strong>to training</strong> - this is what allows them to outperform their shallow counterparts.</p>
+<p>DBNs can be viewed as a <strong>stack of RBMs</strong>, where the hidden layer of one RBM is the visible layer of the one above it.</p>
+<h2 id="training">Training</h2>
+<p>A DBN is trained as follows:</p>
+<ul>
+<li>The first RBM is trained to reconstruct its input as accurately as possible.</li>
+<li>The hidden layer of the first RBM is treated as the visible layer of the 2nd</li>
+<li>The 2nd RBM is trained using the outputs of the 1st RBM.</li>
+<li>This process is repeated until every layer in the network is trained.</li>
+</ul>
+<p>An important note of a DBN is that each RBM layer learns the entire input</p>
+<p>In other kinds of models like convolutional nets, early layers detect simple patterns, and later layers recombine them, like in the facial recognition example in previous chapters.</p>
+<p><strong>HOWEVER</strong> a DBN works globally by fine-tuning the entire input in succession as the model slowly improves.</p>
+<p>The reason why a DBNs work so well is highly technical, but it suffices to say that a stack of RBMs will outperform a single unit, just like a MLP was able to outperform a perceptron working alone.</p>
+<h2 id="fine-tuning">Fine Tuning</h2>
+<p>After the initial training, the RBMs can detect inherent patterns in the data, <strong>but we still haven&apos;t labelled the patterns</strong>.</p>
+<p>To finish training, we need to introduce labels to the patterns and fine tune the net with <strong>supervised learning</strong>.</p>
+<p>To do this, we need a very small set of labelled samples, so that the features and patterns can be associated with a name.</p>
+<p>The weights and biases are altered slightly, resulting in a small change in the net&apos;s perception of the patterns, and often a small increase in the total accuracy. </p>
+<p>Fortunately, the set of labelled data, can be small relative to the original dataset, which as discussed is extremelly helpful in real world applications.</p>
+<p><strong>But do be careful of overtraining a deep network!</strong></p>
+<h2 id="benefits-of-dbns">Benefits of DBNs</h2>
+<ul>
+<li>Only needs a small labelled dataset, which is important to real life applications</li>
+<li>Training process can be completed in reasonable time thanks to GPUs</li>
+<li>Resulting net is very accurate compared to a shallow net</li>
+</ul>
+<p><strong>It&apos;s a solution to the vanishing gradient problem!</strong></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="6-restricted-boltzmann-machines.html" class="navigation navigation-prev " aria-label="Previous page: 6-restricted-boltzmann-machines - ">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="8-convolutional-neural-networks.html" class="navigation navigation-next " aria-label="Next page: 8-convolutional-neural-networks - ">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"7-deep-belief-networks - ","level":"1.2.6","depth":2,"next":{"title":"8-convolutional-neural-networks - ","level":"1.2.7","depth":2,"path":"sections/8-convolutional-neural-networks.md","ref":"sections/8-convolutional-neural-networks.md","articles":[]},"previous":{"title":"6-restricted-boltzmann-machines - ","level":"1.2.5","depth":2,"path":"sections/6-restricted-boltzmann-machines.md","ref":"sections/6-restricted-boltzmann-machines.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"sections/7-deep-belief-networks.md","mtime":"2017-01-22T11:37:25.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-10T19:24:51.993Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

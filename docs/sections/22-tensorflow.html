@@ -1,0 +1,687 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>22-tensorflow -  · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="23-metrics-for-deep-learning.html" />
+    
+    
+    <link rel="prev" href="21-optimizing-your-fit.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Sections
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="2-neural-networks-intro.html">
+            
+                <a href="2-neural-networks-intro.html">
+            
+                    
+                    2-neural-networks-intro - Neural Networks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="3-three-reasons-to-use-deep-learning.html">
+            
+                <a href="3-three-reasons-to-use-deep-learning.html">
+            
+                    
+                    3-three-reasons-to-use-deep-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="4-choosing-deep-net.html">
+            
+                <a href="4-choosing-deep-net.html">
+            
+                    
+                    4-choosing-deep-net - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="5-history-of-deep-nets.html">
+            
+                <a href="5-history-of-deep-nets.html">
+            
+                    
+                    5-history-of-deep-nets - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="6-restricted-boltzmann-machines.html">
+            
+                <a href="6-restricted-boltzmann-machines.html">
+            
+                    
+                    6-restricted-boltzmann-machines - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="7-deep-belief-networks.html">
+            
+                <a href="7-deep-belief-networks.html">
+            
+                    
+                    7-deep-belief-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="8-convolutional-neural-networks.html">
+            
+                <a href="8-convolutional-neural-networks.html">
+            
+                    
+                    8-convolutional-neural-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="9-recurrent-neural-networks.html">
+            
+                <a href="9-recurrent-neural-networks.html">
+            
+                    
+                    9-recurrent-neural-networks - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="10-autoencoders.html">
+            
+                <a href="10-autoencoders.html">
+            
+                    
+                    10-autoencoders - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="11-recursive-neural-tensor-nets.html">
+            
+                <a href="11-recursive-neural-tensor-nets.html">
+            
+                    
+                    11-recursive-neural-tensor-nets - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="12-deep-learning-use-cases.html">
+            
+                <a href="12-deep-learning-use-cases.html">
+            
+                    
+                    12-deep-learning-use-cases - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="13-deep-network-platform.html">
+            
+                <a href="13-deep-network-platform.html">
+            
+                    
+                    13-deep-network-platform - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="14-platforms-h2o-ai.html">
+            
+                <a href="14-platforms-h2o-ai.html">
+            
+                    
+                    14-platforms-h2o-ai - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="15-platforms-dato-graphlab.html">
+            
+                <a href="15-platforms-dato-graphlab.html">
+            
+                    
+                    15-platforms-dato-graphlab - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="16-intro-deep-learning-libraries.html">
+            
+                <a href="16-intro-deep-learning-libraries.html">
+            
+                    
+                    16-intro-deep-learning-libraries - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="17-deep-library-theano.html">
+            
+                <a href="17-deep-library-theano.html">
+            
+                    
+                    17-deep-library-theano - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="18-deep-library-deeplearning4j.html">
+            
+                <a href="18-deep-library-deeplearning4j.html">
+            
+                    
+                    18-deep-library-deeplearning4j - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="19-deep-library-torch.html">
+            
+                <a href="19-deep-library-torch.html">
+            
+                    
+                    19-deep-library-torch - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="20-deep-library-caffe.html">
+            
+                <a href="20-deep-library-caffe.html">
+            
+                    
+                    20-deep-library-caffe - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="21-optimizing-your-fit.html">
+            
+                <a href="21-optimizing-your-fit.html">
+            
+                    
+                    21-optimizing-your-fit - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.21" data-path="22-tensorflow.html">
+            
+                <a href="22-tensorflow.html">
+            
+                    
+                    22-tensorflow - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="23-metrics-for-deep-learning.html">
+            
+                <a href="23-metrics-for-deep-learning.html">
+            
+                    
+                    23-metrics-for-deep-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="24-deep-network-performance.html">
+            
+                <a href="24-deep-network-performance.html">
+            
+                    
+                    24-deep-network-performance - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="25-text-analytics.html">
+            
+                <a href="25-text-analytics.html">
+            
+                    
+                    25-text-analytics - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.25" data-path="26-configuring-a-deep-net.html">
+            
+                <a href="26-configuring-a-deep-net.html">
+            
+                    
+                    26-configuring-a-deep-net - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.26" data-path="27-transfer-learning.html">
+            
+                <a href="27-transfer-learning.html">
+            
+                    
+                    27-transfer-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.27" data-path="28-neural-storyteller.html">
+            
+                <a href="28-neural-storyteller.html">
+            
+                    
+                    28-neural-storyteller - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.28" data-path="29-inceptionism.html">
+            
+                <a href="29-inceptionism.html">
+            
+                    
+                    29-inceptionism - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.29" data-path="30-reinforcement-learning.html">
+            
+                <a href="30-reinforcement-learning.html">
+            
+                    
+                    30-reinforcement-learning - 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >22-tensorflow - </a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="tensorflow">Tensorflow</h1>
+<p>Good library from Google for building commercial level applications.</p>
+<p>There is a lot of hype surrounding Tensorflow. This document contains an overview.</p>
+<h2 id="history">History</h2>
+<p>Tensorflow came out of a Google library called disbelief V2.</p>
+<p>This was a proprietary google library developed at the google brain project.</p>
+<p>The project team&apos;s vision was to build a system that simplified the deployment of large scale deep learning models into a variety of different hardware setups - from smartphones, to simple servers, to giant servers with GPUs.</p>
+<p>This library would improve the portability of ML so that research models can be more easily applied to commercial applications.</p>
+<p>Eventhough tensorflow is 6 months all it&apos;s the most popular lib in github.</p>
+<h2 id="computational-graph">Computational Graph</h2>
+<p>Much like the Theano library, tensorflow is based on the concept of a computational graph.</p>
+<p>In a computational graph, <strong>nodes</strong> represent their persistent data or a math operation.</p>
+<p><strong>Edges</strong> represent the flow of data between nodes.</p>
+<p>The <strong>data</strong> that flows through these edges is a <strong>multidimentional array known as a TENSOR</strong></p>
+<p>The output of an operation or set of operations is then fed as an input of the next. </p>
+<p>Eventhough Tensorflow was designed to support neural networks, it can support any domain where computation can be modeled as a data flow graph.</p>
+<h2 id="resources">Resources</h2>
+<p>Tensorflow also adopts some useful features from Theano such as:</p>
+<ul>
+<li>Differentiation</li>
+<li>Common Sub-expression elimination</li>
+<li>Shared and Symbolic Variables </li>
+</ul>
+<p>For an open source library it has comprehensive documentation, as well as a <strong>massive online course in udacity.</strong></p>
+<h2 id="network-support">Network Support</h2>
+<p>Different type of Neural Networks can be supported by tensorflow.</p>
+<p>However there is currently no support for hyperparameter configuration.</p>
+<p>For now users can use KERAS to support hyperparameters in tensorflow.</p>
+<h2 id="interface">Interface</h2>
+<p>Currently Tensorflow has a <strong>C++ interface</strong></p>
+<p>The team hopes that community will build more programming language support with SWIG.</p>
+<p>There was a release of Ruby.</p>
+<h2 id="performance">Performance</h2>
+<p>Tensorflow and theano seem simlar in many ways, but there are several key differences. </p>
+<p>When tensorflow was released in November of 2015, its compile and runtimes were much slower than theano, but the tensorflow community have fought to combat these issues.</p>
+<p>An update in April 2015 tensorflow performed well in image category.</p>
+<h2 id="parallelism">Parallelism</h2>
+<p>Another improvement over theano comes in parallelism support.</p>
+<p>Deeplearning4J supports the training of a ML model on a distributed framework through Iterative Map Reduce.</p>
+<h3 id="data-parallelism">Data Parallelism</h3>
+<p>Data parallelism is implemented in a later release known as distributed tensorflow 0.8.</p>
+<p>Data parallelism allows you to train different subsets of the data in different nodes in a cluster for each training pass.</p>
+<p>Followed by parameter averaging and replacement across the cluster.</p>
+<h3 id="model-parallelism">Model Parallelism</h3>
+<p>V0.8 also implements model parallelism.</p>
+<p>Different portions of the model are trained in different devices in parallel.</p>
+<p>For example you can use model parallelism to train stacked RNNs by deploying each RNN in a different device.</p>
+<h2 id="opencl">OpenCL</h2>
+<p>Although many ML libraries support CUDA, few support OpenCL (A fast rising standard for GPU computing)</p>
+<p>Tensorflow has added OpenCL support to the roadmap.</p>
+<h2 id="tensorboard">Tensorboard</h2>
+<p>A visualisation tool for network architecture and performance.</p>
+<p>The tool allows you to zoom in and visualize different levels of the network.</p>
+<p>You can also view different summary level metrics, and changes overtime of the training process.</p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>Soumith Chintala benchmarks - <a href="https://github.com/soumith/convnet-benchmarks" target="_blank">https://github.com/soumith/convnet-benchmarks</a></li>
+<li>TensorFlow road map - <a href="https://www.tensorflow.org/resources/roadmap#roadmap" target="_blank">https://www.tensorflow.org/resources/roadmap#roadmap</a></li>
+<li>Github ML Showcase - <a href="https://github.com/showcases/machine-learning" target="_blank">https://github.com/showcases/machine-learning</a></li>
+<li>Somatic Ruby post - <a href="http://www.somatic.io/blog/tensorflow-is-coming-to-ruby" target="_blank">http://www.somatic.io/blog/tensorflow-is-coming-to-ruby</a></li>
+<li>TensorFlow MOOC - <a href="https://www.udacity.com/course/deep-learning--ud730" target="_blank">https://www.udacity.com/course/deep-learning--ud730</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="21-optimizing-your-fit.html" class="navigation navigation-prev " aria-label="Previous page: 21-optimizing-your-fit - ">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="23-metrics-for-deep-learning.html" class="navigation navigation-next " aria-label="Next page: 23-metrics-for-deep-learning - ">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"22-tensorflow - ","level":"1.2.21","depth":2,"next":{"title":"23-metrics-for-deep-learning - ","level":"1.2.22","depth":2,"path":"sections/23-metrics-for-deep-learning.md","ref":"sections/23-metrics-for-deep-learning.md","articles":[]},"previous":{"title":"21-optimizing-your-fit - ","level":"1.2.20","depth":2,"path":"sections/21-optimizing-your-fit.md","ref":"sections/21-optimizing-your-fit.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"sections/22-tensorflow.md","mtime":"2017-01-23T19:23:31.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-10T19:24:51.993Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
