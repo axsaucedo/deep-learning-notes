@@ -1,6 +1,8 @@
 
 # Deep Learning Notes
 
+You can find the live [gitbook here - click for better reading experience](https://axsauze.github.io/deep-learning-notes/).
+
 ## All extra resources
 
 ### Chapter 2
